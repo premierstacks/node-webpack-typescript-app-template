@@ -1,4 +1,4 @@
-# [JavaScript Template](https://github.com/tomchochola/javascript-template) by [Tomáš Chochola](https://github.com/tomchochola)
+# [JavaScript Template](https://github.com/premierstacks/javascript-template) by [Tomáš Chochola](https://github.com/tomchochola)
 
 Kickstart JavaScript projects with our template: encapsulates best practices, premium configurations, and a structured setup for instant, efficient project initiation.
 
@@ -72,8 +72,8 @@ Review and ensure your license covers the usage of these dependencies, or remove
 
 This template is equipped with a selection of preconfigured features designed to streamline your development process and ensure best practices:
 
-- **ESLint**: Integrated with `@tomchochola/eslint-config` for advanced linting, promoting consistent code quality and adherence to JavaScript best practices.
-- **Prettier**: Utilizes `@tomchochola/prettier-config` for consistent code formatting, ensuring that your code style remains uniform across the project.
+- **ESLint**: Integrated with `@premierstacks/eslint-config` for advanced linting, promoting consistent code quality and adherence to JavaScript best practices.
+- **Prettier**: Utilizes `@premierstacks/prettier-config` for consistent code formatting, ensuring that your code style remains uniform across the project.
 - **Makefile Goals**: Offers a variety of Makefile commands (`make check`, `make fix`, `make clean`, `make local`, `make testing`, `make development`, `make staging`, `make production`) to support different development workflows and deployment stages.
 - **Scalable Project Structure**: Designed for scalability, the template provides a modern and organized project structure adaptable to both small and large-scale applications.
 - **Dotfiles**: Comes with essential configuration files (.gitignore, .editorconfig, .gitattributes, .prettierignore) pre-set to maintain a clean and consistent coding environment across various platforms and editors, ensuring smooth collaboration and integration.
