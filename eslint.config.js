@@ -17,6 +17,6 @@
  * - Web: https://premierstacks.com
  */
 
-import { configs } from '@premierstacks/eslint-stack';
+import { ignores, browser, configs } from '@premierstacks/eslint-stack';
 
-export default [...configs.ignores(), ...configs.browser(), ...configs.configs()];
+export default [...ignores(), ...browser(), ...configs()];
