@@ -15,6 +15,16 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-import { recommended } from '@premierstacks/prettier-stack';
+import express from 'express';
 
-export default recommended();
+const app = express();
+
+app.get('/', (_req, res) => {
+  res.status(200).json({ data: null });
+});
+
+const PORT = parseInt(process.env['PORT'] ?? '8000');
+
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT.toFixed()}`);
+});

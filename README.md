@@ -1,40 +1,42 @@
-# [JavaScript Template](https://github.com/premierstacks/javascript-template) by [Tomáš Chochola](https://github.com/tomchochola)
+# [Node Webpack TypeScript App Template](https://github.com/premierstacks/node-webpack-typescript-app-template) by [Tomáš Chochola](https://github.com/tomchochola)
 
-Kickstart JavaScript projects with our template: encapsulates best practices, premium configurations, and a structured setup for instant, efficient project initiation.
+A premium, preconfigured Node.js application template using Webpack and TypeScript that accelerates backend development and ensures top-tier code quality. Ideal for building scalable and maintainable server-side applications.
 
-Embark on JavaScript projects with unparalleled ease using our meticulously designed template. Crafted by industry experts, this template distills extensive research and best practices into a ready-to-use foundation, ensuring your projects start on the right foot with state-of-the-art configurations for ESLint, Prettier, and a modern project structure. It's tailored for developers who value quality, efficiency, and a streamlined workflow, providing a robust and reliable starting point for both small and large-scale applications. With this template, you're not just starting a project; you're adopting a framework designed for excellence, scalability, and maintainability.
+## 💡 Idea Behind Premierstacks
 
-## 👌 Top Reasons to Opt for Our Premium JavaScript Template
+Premierstacks is a comprehensive solution designed to cover both the development environment and the runtime provisioning/release process to production servers.
 
-Leverage the full potential of our Premium JavaScript Template to elevate your development process, ensuring your projects are not just completed, but accomplished with a mark of distinction.
+It includes everything from basic project structures to configurations for unit tests, static analysis, linters, automatic code fixers, and compilation or transpilation. Premierstacks ensures that your entire workflow, from development to production deployment, operates smoothly.
 
-### ⏱️ Setup in Just 5 Minutes
+With a single license, you gain access to multiple libraries and guides that allow you to focus on business logic while Premierstacks handles both development and runtime environments.
 
-Why wait? Dive into your JavaScript projects faster than ever before. Our template is designed for quick setup, allowing you to move from initiation to development seamlessly, saving precious time right from the start.
+This software is proprietary and designed for serious developers who value precision and professionalism. Ensure compliance by securing your license today.
 
-### 🕒 Hundreds of Hours of Research, So You Don't Have To
+## ⚡ Why Choose This Solution?
 
-This template is the culmination of extensive research and refined best practices in JavaScript development. We've distilled countless hours of expertise into a ready-to-use format, offering you a head start on your project.
+- **Premier Quality**
 
-### 🎚️ Minimal Setup, Maximum Efficiency
+  Crafted for discerning developers and teams aiming for the highest standards.
 
-Benefit from a preconfigured environment that eliminates unnecessary setup time. Our template includes premium ESLint and Prettier configurations, along with a modern, clean structure that ensures efficiency and quality from the first line of code.
+- **Expertly Crafted**
 
-### 📘 Zero Expertise Required
+  Built by professionals after hundreds of hours of research and testing.
 
-Whether you're a seasoned JavaScript developer or just starting out, our template is built for ease of use. With no need for prior setup knowledge, you can jump straight into what matters most—building your project.
+- **Production-Ready**
 
-### 🔄 Continuously Updated
+  Fully tested in real-world production environments.
 
-Stay ahead in the fast-evolving JavaScript ecosystem. Our template is regularly updated to reflect the latest development trends, best practices, and tooling configurations, ensuring your project remains current and competitive.
+- **Efficient Setup**
 
-### ⚔️ Battle-Tested Reliability
+  Get up and running with minimal effort and immediate results.
 
-Trust in a template that's been rigorously tested across a variety of development scenarios. From small projects to large-scale applications, our template provides a solid foundation that you can rely on for quality and consistency.
+- **Regular Updates**
 
-### 🏆 Premier Quality Guarantee
+  Stay aligned with the latest Webpack, TypeScript, and best practices.
 
-Our JavaScript Template isn't just a starting point; it's a commitment to excellence. Adopting this template means choosing a path defined by high standards, where quality, maintainability, and scalability are built-in from the beginning.
+- **Versatile**
+
+  Designed specifically for Node.js applications using TypeScript.
 
 ## 🛡️ License & Usage
 
@@ -42,113 +44,247 @@ Our JavaScript Template isn't just a starting point; it's a commitment to excell
 
 [![License](https://img.shields.io/badge/License-©_Proprietary-blue.svg)](LICENSE.md)
 
-This software is the exclusive property of Tomáš Chochola, protected by copyright laws.<br />
-Although the source code may be accessible, it is not free for use without a valid license.<br />
-A valid license, obtainable through proper channels, is required for any software use.<br />
-For licensing or inquiries, please contact Tomáš Chochola or refer to the GitHub Sponsors page.
+This software is proprietary property of Tomáš Chochola and protected by copyright laws.<br />
+A valid license is required for any use or manipulation of the software or source code.<br />
+The full license terms are detailed in the LICENSE.md file within the source code repository.
 
-The full license terms are detailed in the LICENSE.md file within the source code repository.<br />
-The terms are subject to changes. Users are encouraged to review them periodically.
+One license grants you access to all Premierstacks products, ensuring a unified solution for your development and production needs.
 
-**Email:** <chocholatom1997@gmail.com><br />
-**Personal GitHub:** [https://github.com/tomchochola](https://github.com/tomchochola)<br />
-**Premierstacks GitHub:** [https://github.com/premierstacks](https://github.com/premierstacks)<br />
-**Sponsor & License:** [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)<br />
-**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)
+**Purchase a license here**: [GitHub Sponsors](https://github.com/sponsors/tomchochola)
 
-### Acquiring a License
+**See full terms in**: [LICENSE.md](LICENSE.md)
 
-To use this template, you must obtain a valid license available through a monthly subscription on the [Sponsor & License](https://github.com/sponsors/tomchochola).<br />
-This platform has been chosen for its reliability and ease of use, providing a secure and straightforward way to manage your subscription.
+## 📦 Preconfigured Features
 
-### Note on Proprietary Dependencies
+Here are the key preconfigured features included in this template:
 
-This template may include or rely on proprietary libraries/packages.<br />
-Review and ensure your license covers the usage of these dependencies, or remove/replace them as needed.
+- **Webpack Configuration**
 
-## 🖍️ Highlights
+  Utilizes `@premierstacks/webpack-stack` for a finely-tuned Webpack setup, facilitating the management and bundling of assets like HTML, SCSS, and TypeScript, optimized for both development and production environments.
 
-- **Optimized for JavaScript**: Tailored configurations and structures specifically for JavaScript development ensure seamless integration and efficiency.
-- **Premium Tooling Configurations**: Includes Tomáš Chochola's premium ESLint and Prettier configurations for maintaining high code quality and consistent formatting.
-- **Streamlined Development Workflow**: Predefined Makefile commands facilitate routine tasks like linting, dependency updates, and more, optimizing your development process.
-- **Modern and Clean Structure**: A well-organized project structure with essential configurations and a clean entry point (src/index.js) sets a solid foundation for both small and large-scale projects.
-- **Best Practices Adopted**: The template adheres to industry best practices in coding standards, ensuring your project is maintainable, scalable, and up-to-date.
+- **TypeScript Support**
 
-## 🎨 Preconfigured Features
+  Configured with `@premierstacks/typescript-stack` to leverage TypeScript's powerful features for type safety and developer productivity, aligning with TypeScript best practices.
 
-This template is equipped with a selection of preconfigured features designed to streamline your development process and ensure best practices:
+- **ESLint Integration**
 
-- **ESLint**: Integrated with `@premierstacks/eslint-stack` for advanced linting, promoting consistent code quality and adherence to JavaScript best practices.
-- **Prettier**: Utilizes `@premierstacks/prettier-stack` for consistent code formatting, ensuring that your code style remains uniform across the project.
-- **Makefile Goals**: Offers a variety of Makefile commands (`make check`, `make fix`, `make clean`, `make local`, `make testing`, `make development`, `make staging`, `make production`) to support different development workflows and deployment stages.
-- **Scalable Project Structure**: Designed for scalability, the template provides a modern and organized project structure adaptable to both small and large-scale applications.
-- **Dotfiles**: Comes with essential configuration files (.gitignore, .editorconfig, .gitattributes, .prettierignore) pre-set to maintain a clean and consistent coding environment across various platforms and editors, ensuring smooth collaboration and integration.
+  Integrates `@premierstacks/eslint-stack` to enforce strict linting rules for JavaScript and TypeScript, promoting code quality and consistency throughout the project.
 
-## 🎬 Get Started
+- **Stylelint Configuration**
 
-### 1️⃣ License Acquisition
+  Employs `@premierstacks/stylelint-stack` for CSS and SCSS linting, ensuring that styles across the project maintain high quality and consistency.
 
-Secure your license at [Sponsor & License](https://github.com/sponsors/tomchochola).
+- **Prettier Formatting**
 
-### 2️⃣ Project Creation
+  Incorporates `@premierstacks/prettier-stack` for unified code formatting, ensuring that all project code adheres to a consistent style for better readability and maintainability.
 
-Use the `Use this template` button on the GitHub repository page to create a new repository from this template.<br />
-Select `Create a new repository` in the dropdown and follow the prompts.
+- **PostCSS Integration**
 
-### 3️⃣ Customize Your Project
+  Set up with `@premierstacks/postcss-stack` for advanced CSS processing capabilities, including autoprefixing and future CSS features, enhancing the styling workflow.
 
-Explore the generated repository.<br />
+- **Makefile Goals**
+
+  Features a comprehensive set of predefined Makefile commands to streamline routine development tasks, contributing to an efficient workflow and streamlined CI/CD processes.
+
+## 🔥 Webpack Configuration Highlights
+
+**Default Entry Points**
+
+The template utilizes `index.ts` as default entry points, establishing a structured starting point for your application.
+
+**TypeScript Transpilation**
+
+TypeScript code is transpiled into JavaScript compatible with Node.js environments, ensuring a modern development experience while targeting the Node.js runtime.
+
+**SCSS to CSS Processing**
+
+SCSS files are compiled into CSS and further processed to apply PostCSS transformations like autoprefixing.
+
+**HTML Management**
+
+HTML files are effectively handled, with automatic injection of scripts and styles into the generated HTML files, streamlining the development process.
+
+**Resource Queries Support**
+
+Supports resource queries in import statements, providing fine-grained control over asset processing:
+
+- **`?asset`**: Automatically decides whether to inline the asset or emit it as a separate file based on its size. This is useful for optimizing load times by inlining small assets and emitting larger ones.
+- **`?resource`**: Forces the asset to be emitted as a separate file, regardless of its size. Ideal when you need assets to be cached separately or accessed directly.
+- **`?source`**: Imports the asset as a raw source string. Useful for cases where you need the content of the asset directly in your code, such as loading an HTML template or a text file.
+- **`?inline`**: Inlines the asset into the bundle regardless of size. Ensures the asset is embedded directly into your code, which can be beneficial for small files or critical assets that must be loaded immediately.
+
+**Asset Management**
+
+Efficient handling of assets like images, fonts, and other files, with customizable output paths and naming conventions, ensures that assets are correctly processed and linked in your application.
+
+**Code Splitting and Optimization**
+
+Employs optimized code splitting strategies to improve load times, with chunks configured for better caching and performance.
+
+**Source Maps Generation**
+
+Generates source maps differently for development and production environments to aid in debugging while maintaining security in production.
+
+**Build Optimizations**
+
+Integrates various plugins to minimize and optimize CSS, HTML, JSON, and image assets for production builds, enhancing performance without the need for detailed configuration.
+
+**Environment-Specific Configurations**
+
+Adjusts settings based on the environment (development or production) to ensure optimal performance and features appropriate for each stage.
+
+**Extensibility and Customization**
+
+The Webpack configuration is designed to be modular and extensible, allowing you to modify and extend it according to your project's specific requirements.
+
+## 🚀 Getting Started
+
+1️⃣ **Review the documentation and license**
+
+Ensure this template fits your needs and that you agree with the terms.
+
+2️⃣ **Purchase a license**
+
+Obtain a valid license through [GitHub Sponsors](https://github.com/sponsors/tomchochola).
+
+3️⃣ **Project Creation**
+
+Use the `Use this template` button on the GitHub repository page to create a new repository from this template.
+
+4️⃣ **Customize Your Project**
+
+Explore the generated repository.
+
 Remove unnecessary components and adjust it to fit your project's needs.
 
-### 4️⃣ Attribution
+5️⃣ **Attribution**
 
-To comply with the license agreement regarding giving credits to the authors, please keep the `AUTHORS.md` file intact in your project repository.<br />
-Alternatively please ensure to manually give credits to the authors in your project documentation or wherever appropriate, as per the license agreement.
+To comply with the license agreement regarding giving credits to the authors, please keep the `AUTHORS.md` file intact in your project repository.
 
-### 5️⃣ Usage
+Alternatively, please ensure to manually give credits to the authors in your project documentation or wherever appropriate, as per the license agreement.
 
-The template includes a Makefile with predefined goals to streamline development:
+6️⃣ **Usage**
 
-```shell
-# Set up for environment-specific setups
-make local
-make testing
-make development
-make staging
-make production
+Utilize the Makefile commands to streamline your development workflow:
 
-# Update all dependencies
-make update
+## 📘 CLI Commands
 
-# Automatically fix code style issues
-make fix
+Here are the Makefile goals included in the template, along with their descriptions:
 
-# Run linters and static analysis tools
-make check
-```
+- **make audit**
 
-## The Author: Tomáš Chochola
+  Run security audits on npm dependencies to check for vulnerabilities.
 
-_Elite developer crafting exclusive, enterprise-grade software, professional packages, and premium templates to elevate your digital landscape._
+- **make check**
 
-Tomáš Chochola is the creator and project visionary behind this project.<br />
-His expertise and innovative approach have been instrumental in shaping the project's direction and ensuring its success.<br />
-Tomáš Chochola's commitment to excellence and his passion for development are reflected in the quality and reliability of the project.
+  Run linters, static analysis, and security audits to ensure code quality.
 
-**E-mail**: <chocholatom1997@gmail.com><br />
+- **make clean**
+
+  Remove generated files and clean up the project environment.
+
+- **make compress**
+
+  Optimize assets like SVGs for better performance.
+
+- **make development**
+
+  Build the project in development mode.
+
+- **make distclean**
+
+  Perform a deep clean, removing all generated and temporary files.
+
+- **make fix**
+
+  Automatically fix code style issues using ESLint and Prettier.
+
+- **make install**
+
+  Install all npm dependencies, including production and development.
+
+- **make lint**
+
+  Run linters (ESLint, Prettier) to check code style and syntax.
+
+- **make local**
+
+  Build the project in development mode.
+
+- **make production**
+
+  Build the project in production mode with optimizations.
+
+- **make staging**
+
+  Build the project in production mode.
+
+- **make stan**
+
+  Run static analysis using the TypeScript compiler without emitting files.
+
+- **make start**
+
+  Start a local development server with live reloading.
+
+- **make testing**
+
+  Build the project in development mode.
+
+- **make update**
+
+  Update npm dependencies to their latest versions.
+
+These commands facilitate routine development tasks, contributing to an efficient workflow and streamlined CI/CD processes.
+
+## 👤 The Author: Tomáš Chochola
+
+Tomáš Chochola is a leading software developer known for delivering precision-crafted, enterprise-grade solutions. With deep expertise in multiple cutting-edge technologies, Tomáš focuses on ensuring top-tier code quality and efficiency for every project.
+
+**Email**: <chocholatom1997@gmail.com><br />
+**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)<br />
 **Personal GitHub**: [https://github.com/tomchochola](https://github.com/tomchochola)<br />
 **Premierstacks GitHub**: [https://github.com/premierstacks](https://github.com/premierstacks)<br />
-**Sponsor & License**: [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)<br />
-**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)
+**GitHub Sponsors**: [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)
 
-## 🌐 Discover Tomáš Chochola's GitHub Universe
+His areas of specialization include:
 
-Explore the boundless creativity and innovation in [Personal GitHub](https://github.com/tomchochola). As the epicenter of my digital creations, it offers an extensive collection of avant-garde software packages, refined libraries, and polished templates, meticulously crafted to enhance your development journey. Immerse yourself in a world where efficiency and elegance converge, and elevate your projects with tools that redefine excellence.
+- DevOps and AWS
+- PHP and Laravel
+- Secure coding practices
+- Code style and best practices
+- Helper functions and libraries
+- TypeScript, React, and Webpack
+- Reusable templates and configuration stacks
+- Development on Windows 11 and Ubuntu 22/24 (WSL2)
+- ESLint, Prettier, PHP CS Fixer, PostCSS, and Stylelint
 
-## 💰 Empower Innovation: Support and Subscribe
+## 💼 Hire Me
 
-Your support transcends mere contributions; it's the lifeblood of innovation and growth. By subscribing for premium access or becoming a sponsor, you directly contribute to the advancement of high-caliber software. Embrace the opportunity to be part of a visionary journey by visiting my [Sponsor & License](https://github.com/sponsors/tomchochola).
+Whether you need short-term code assistance, in-depth analysis, or help integrating premium packages, I'm available for collaboration. Let's take your project to the next level.
 
-## 🤝 Join Forces with Tomáš Chochola
+You can also support my work by becoming a sponsor through [GitHub Sponsors](https://github.com/sponsors/tomchochola).
 
-Embark on a collaborative venture with a developer whose passion for perfection knows no bounds. Whether it's for groundbreaking startups, global enterprises, or transformative government projects, my arsenal of skills is at your command. Let's merge visions and craftsmanship to forge software that stands a class apart. Connect with me at <chocholatom1997@gmail.com> for collaborations that transcend conventional boundaries.
+If you're interested in hiring me for any of the above or for solving IT issues, feel free to reach out. I'm open to collaboration, whether it's for new packages, ongoing projects, or quick IT fixes.
+
+## 🌳 Project Structure (Tree)
+
+Below is an example of the project structure you will receive upon purchasing the Browser Webpack TypeScript App Template. This allows you to see what’s included and know exactly what you are paying for:
+
+```sh
+.
+├── AUTHORS.md
+├── LICENSE.md
+├── Makefile
+├── README.md
+├── eslint.config.js
+├── package.json
+├── prettier.config.js
+├── src
+│   ├── index.ts
+│   └── modules.d.ts
+├── tsconfig.json
+└── webpack.config.js
+
+1 directory, 11 files
+```

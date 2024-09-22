@@ -15,6 +15,12 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-import { recommended } from '@premierstacks/prettier-stack';
+import { nodeTypescriptApp } from '@premierstacks/webpack-stack';
 
-export default recommended();
+export default function (env, argv) {
+  const config = nodeTypescriptApp(env, argv);
+
+  config.entry = { index: ['./src/index.ts'] };
+
+  return config;
+}
