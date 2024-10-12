@@ -2,9 +2,9 @@
   "name": "@premierstacks/node-webpack-typescript-app-template",
   "description": "premierstacks node webpack typescript app template",
   "keywords": [
+    "tomchochola",
     "premierstacks",
-    "node-webpack-typescript-app-template",
-    "tomchochola"
+    "node-webpack-typescript-app-template"
   ],
   "homepage": "https://github.com/premierstacks/node-webpack-typescript-app-template",
   "bugs": {
