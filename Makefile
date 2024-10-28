@@ -80,8 +80,8 @@ stan_tsc: ./node_modules/.bin/tsc ./tsconfig.json
 	./node_modules/.bin/tsc --noEmit
 
 .PHONY: start
-start: ./node_modules/.bin/webpack-cli ./webpack.config.js
-	./node_modules/.bin/webpack-cli serve --mode=development --node-env=development
+start: local ./dist/index.cjs
+	node ./dist/index.cjs
 
 .PHONY: testing
 testing: local
