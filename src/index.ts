@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (_req, res) => {
-  res.status(200).json({ data: null });
+  res.status(200).json({ data: 'Premierstacks' });
 });
 
 const PORT = parseInt(process.env['PORT'] ?? '8000');
